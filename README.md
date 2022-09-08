@@ -10,7 +10,7 @@
 ## Setup Instructions and Codebase Overview: 
 - [Protocol Readme](protocolReadme.md)
 
-## Contracts in scope
+## Contracts in Scope
 
 Note 1: For the RariMerkleRedeemer & MerkleRedeemerDripper contracts, please see the [readme here](contracts/shutdown/fuse/MerkleReedeemerSpec.md) for additional information.
  
