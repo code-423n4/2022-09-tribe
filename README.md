@@ -15,12 +15,16 @@ Setup TLDR:
 ```
 # Install dependencies:
 npm install && npm run setup:forge
+# Allocate additional ram for Hardhat/Node:
+export NODE_OPTIONS=--max-old-space-size=6144*
 # Build and compile contracts (both via hardhat *and* forge) and generate types: 
 npm run build
 # Run forge tests: 
 npm run test
 # Run hardhat tests (takes >10min and may need a prior `export NODE_OPTIONS=--max-old-space-size=8192` to avoid an out of memory error): 
 npm run test:hardhat
+
+* do not allocate more RAM in megabytes than your computer has, or this will fail
 ```
 
 ## Contracts in Scope
