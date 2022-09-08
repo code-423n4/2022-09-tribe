@@ -56,7 +56,9 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - Starts September 09, 2022 20:00 UTC
 - Ends September 12, 2022 20:00 UTC
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
+## Setup instructions and codebase overview: 
+- [protocolReadme.md](Protocol Readme)
+
 ## Contracts in scope
 ### [RariMerkleRedeemer]()
 sLoC: ~150
@@ -92,3 +94,4 @@ External contracts called: FEI, DAI, stETH, FOX, LQTY ERC-20 tokens
 Libraries: OpenZeppelin
 
 Intended to redeem TRIBE from the effective circulating supply in exchange for a pro rata portion of a list of ERC-20 tokens.
+
