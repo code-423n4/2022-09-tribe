@@ -29,7 +29,7 @@ npm run test:hardhat
 
 ## Contracts in Scope
 
-### Scope table
+### Scope Table
 ```
 | File                                                                   | nLines |
 |------------------------------------------------------------------------|--------|
