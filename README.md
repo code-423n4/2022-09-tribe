@@ -7,7 +7,7 @@
 - Starts September 09, 2022 20:00 UTC
 - Ends September 12, 2022 20:00 UTC
 
-## Setup instructions and codebase overview: 
+## Setup Instructions and Codebase Overview: 
 - [Protocol Readme](protocolReadme.md)
 
 ## Contracts in scope
