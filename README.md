@@ -27,6 +27,11 @@ npm run test:hardhat
 * do not allocate more RAM in megabytes than your computer has, or this will fail
 ```
 
+To Run Slither:
+```
+slither --solc-remaps '@openzeppelin/=node_modules/@openzeppelin/ @chainlink/=node_modules/@chainlink/ @uniswap/=node_modules/@uniswap/ @rari-capital/=node_modules/@rari-capital/ @orcaprotocol/=node_modules/@orcaprotocol/ @ensdomains/=node_modules/@ensdomains/ @gnosis.pm/=node_modules/@gnosis.pm/ ds-test/=contracts/test/libs/forge-std/lib/ds-test/src/ forge-std/=contracts/test/libs/forge-std/src/' contracts/pcv/PCVGuardian.sol ./contracts/contract/you-want-to-test.sol
+```
+
 ## Contracts in Scope
 
 ### Scope Table
