@@ -27,7 +27,7 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - [ ] Does the token conform to the ERC-20 standard? In what specific ways does it differ?
 - [ ] Describe anything else that adds any special logic that makes your approach unique
 - [ ] Identify any areas of specific concern in reviewing the code
-- [ ] Add all of the code to this repo that you want reviewed
+- [x] Add all of the code to this repo that you want reviewed
 
 
 ---
