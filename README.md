@@ -18,13 +18,14 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
 
 Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
-- [ ] Create a PR to this repo with the below changes:
-- [ ] Name of each contract and:
-  - [ ] source lines of code (excluding blank lines and comments) in each
-  - [ ] external contracts called in each
-  - [ ] libraries used in each
-- [ ] Describe any novel or unique curve logic or mathematical models implemented in the contracts
-- [ ] Describe anything else that adds any special logic that makes your approach unique
+- [x] Create a PR to this repo with the below changes:
+- [x] Name of each contract and:
+  - [x] source lines of code (excluding blank lines and comments) in each
+  - [x] external contracts called in each
+  - [x] libraries used in each
+- [x] Describe any novel or unique curve logic or mathematical models implemented in the contracts
+- [x] Does the token conform to the ERC-20 standard? In what specific ways does it differ?
+- [x] Describe anything else that adds any special logic that makes your approach unique
 - [ ] Identify any areas of specific concern in reviewing the code
 - [x] Add all of the code to this repo that you want reviewed
 
@@ -34,20 +35,21 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 # Contest prep
 
 ## ⭐️ Sponsor: Contest prep
-- [x] Provide a self-contained repository with working commands that will build (at least) all in-scope contracts, and commands that will run tests producing gas reports for the relevant contracts.
+- [ ] Provide a self-contained repository with working commands that will build (at least) all in-scope contracts, and commands that will run tests producing gas reports for the relevant contracts.
 - [x] Make sure your code is thoroughly commented using the [NatSpec format](https://docs.soliditylang.org/en/v0.5.10/natspec-format.html#natspec-format).
-- [ ] Modify the bottom of this `README.md` file to describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing. ([Here's a well-constructed example.](https://github.com/code-423n4/2021-06-gro/blob/main/README.md))
-- [ ] Please have final versions of contracts and documentation added/updated in this repo **no less than 24 hours prior to contest start time.**
+- [x] Modify the bottom of this `README.md` file to describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing. ([Here's a well-constructed example.](https://github.com/code-423n4/2021-06-gro/blob/main/README.md))
+- [x] Please have final versions of contracts and documentation added/updated in this repo **no less than 24 hours prior to contest start time.**
 - [x] Be prepared for a 🚨code freeze🚨 for the duration of the contest — important because it establishes a level playing field. We want to ensure everyone's looking at the same code, no matter when they look during the contest. (Note: this includes your own repo, since a PR can leak alpha to our wardens!)
 - [ ] Promote the contest on Twitter (optional: tag in relevant protocols, etc.)
 - [ ] Share it with your own communities (blog, Discord, Telegram, email newsletters, etc.)
+- [ ] Optional: pre-record a high-level overview of your protocol (not just specific smart contract functions). This saves wardens a lot of time wading through documentation.
 - [ ] Delete this checklist and all text above the line below when you're ready.
 
 ---
 
 # FEI and TRIBE Redemption contest details
-- $28,500 USDC main award pot
-- $1,500 USDC gas optimization award pot
+- $42,000 USDC main award pot
+- No gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2022-09-tribe-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
@@ -55,3 +57,38 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - Ends September 12, 2022 20:00 UTC
 
 [ ⭐️ SPONSORS ADD INFO HERE ]
+## Contracts in scope
+### [RariMerkleRedeemer]()
+sLoC: ~150
+External contracts called: FEI ERC-20 token, Fuse cTokens
+Libraries: OpenZeppelin
+
+This contract performs a "merkle swap" between Fuse cTokens and FEI at a pre-determined exchange rate per cToken up to a configured cap per address in the merkle root. There is one merkle root and one exchange rate per cToken. The merkle nodes contain the user address and amount of cTokens which can swap for FEI.
+
+Only EOA addresses will be listed in the merkle nodes, as addresses also need to perform an ECDSA signature on a message to claim the swap.
+
+It should be impossible to claim any assets from the Merkle Redeemer unless included in the merkle tree. It should be impossible to redeem without signing the message. Users with outstanding borrows on Fuse should not be able to claim in full until paying off their debt (cTokens prevent transfers when actively used as collateral for a borrow). All EOA users in the merkle tree should be able to claim in full assuming they have the cTokens, no borrows against them, and the contract is funded.
+
+### [MerkleRedeemerDripper]()
+sLoC: ~10 (with ~200 in inheritance chain)
+External contracts called: FEI ERC-20 token, Fei Protocol Core ACL
+
+This contract is intended to drip FEI into the immutable RariMerkleRedeemer contract as a security/rate limiting mechanism. In the event of an unlikely issue, the dripper can be paused making the maximum attack surface the funds in the RariMerkleRedeemer.
+
+### [SimpleFeiDaiPSM]()
+sLoC: ~75
+External contracts called: FEI and DAI ERC-20 token
+Libraries: OpenZeppelin
+
+This contract is intended to be an immutable FEI-DAI wrapper (like WETH:ETH) which allows 1:1 minting and redemption. This contract should stay synced between the FEI and DAI supplies after each call to `burnFeiHeld()`, assuming it is seeded with enough DAI to match the circulating supply.
+
+Note 1: The contract uses the same abi as other PSMs in fei protocol, with some null and no-op functionality for completeness.
+
+Note 2: Some FEI in existence is "protocol owned" and would be sent directly to this contract to be burned, and not backed by DAI. Hence the `burnFeiHeld()`
+
+### [TribeRedeemer]()
+sLoC: ~50
+External contracts called: FEI, DAI, stETH, FOX, LQTY ERC-20 tokens
+Libraries: OpenZeppelin
+
+Intended to redeem TRIBE from the effective circulating supply in exchange for a pro rata portion of a list of ERC-20 tokens.
