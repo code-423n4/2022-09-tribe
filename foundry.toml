@@ -1,0 +1,8 @@
+[profile.default]
+optimizer = true
+optimizer_runs = 200
+lib-paths = "node_modules"
+contracts = "contracts"
+
+[profile.ci]
+verbosity = 3
