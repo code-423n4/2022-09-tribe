@@ -4,7 +4,7 @@ Smart contract code for Fei Protocol and the FEI stablecoin
 
 ## To get started:
 
-1. Git clone this repo: git clone git@github.com:code-423n4/2022-09-tribe.git
+1. Git clone this repo: `git clone git@github.com:code-423n4/2022-09-tribe.git`
 2. Install dependencies: `npm install && npm run setup:forge`
 3. Set the relevant environment variables in a gitignored `.env`: `MAINNET_ALCHEMY_API_KEY` and `ETH_PRIVATE_KEY`. You can use the `.env.example` as a base
 4. Build and compile contracts (both via hardhat *and* forge) and generate types: `npm run build`
