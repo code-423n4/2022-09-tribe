@@ -1,4 +1,4 @@
-# FEI and TRIBE Redemption contest details
+# FEI and TRIBE Redemption Contest Details
 - $42,000 USDC main award pot
 - No gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
