@@ -54,4 +54,4 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - Starts September 09, 2022 20:00 UTC
 - Ends September 12, 2022 20:00 UTC
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
+- Setup instructions and codebase overview: [protocolReadme.md](Protocol Readme)
