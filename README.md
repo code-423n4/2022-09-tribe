@@ -2,7 +2,7 @@
 - $42,000 USDC main award pot
 - No gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://code4rena.com/contests/2022-09-tribe-contest/submit)
+- Submit findings [using the C4 form](https://code4rena.com/contests/2022-09-fei-and-tribe-redemption-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts September 09, 2022 20:00 UTC
 - Ends September 12, 2022 20:00 UTC
