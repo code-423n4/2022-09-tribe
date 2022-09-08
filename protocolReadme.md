@@ -7,8 +7,9 @@ Smart contract code for Fei Protocol and the FEI stablecoin
 1. Git clone this repo: `git clone git@github.com:code-423n4/2022-09-tribe.git`
 2. Install dependencies: `npm install && npm run setup:forge`
 3. Set the relevant environment variables in a gitignored `.env`: `MAINNET_ALCHEMY_API_KEY` and `ETH_PRIVATE_KEY`. You can use the `.env.example` as a base
-4. Build and compile contracts (both via hardhat *and* forge) and generate types: `npm run build`
-5. Run forge tests: `npm run test`, run hardhat tests: `npm run test:hardhat`, run forge integration/forked tests: `npm run test:integration` or `npm run test:integration:latest`, run hardhat integration/forked tests: `npm run test:e2e`
+4. Allocate additional RAM to Hardhat (if you can: export NODE_OPTIONS=--max-old-space-size=6144)
+5. Build and compile contracts (both via hardhat *and* forge) and generate types: `npm run build`
+6. Run forge tests: `npm run test`, run hardhat tests: `npm run test:hardhat`, run forge integration/forked tests: `npm run test:integration` or `npm run test:integration:latest`, run hardhat integration/forked tests: `npm run test:e2e`
 
 ## Dependencies
 
