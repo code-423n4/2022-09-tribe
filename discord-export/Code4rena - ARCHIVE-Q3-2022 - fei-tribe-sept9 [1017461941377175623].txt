@@ -1,0 +1,478 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q3-2022 / fei-tribe-sept9
+==============================================================
+
+[09/08/2022 4:02 PM] kartoonjoy (pinned)
+👋 Hello and welcome to the contest channel for the $42K USDC **FEI and TRIBE Redemption Contest** contest!
+
+📆 Contest opens 09/09/2022 8:00 PM (20:00 UTC) and runs through 09/12/2022 8:00 PM (20:00 UTC) (3 days).
+
+Please give a warm welcome to the TRIBE team, particularly @Joey S and @tomwaite, @klob, @Eswak, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-09-fei-and-tribe-redemption-contest
+
+{Embed}
+https://code4rena.com/contests/2022-09-fei-and-tribe-redemption-contest
+Code4rena FEI and TRIBE Redemption contest
+$42,000 USDC
+9 September 2022—12 September 2022
+Code4rena - ARCHIVE-Q3-2022 - fei-tribe-sept9 [1017461941377175623].txt_Files/C4-banner-7C19B.png
+
+{Reactions}
+🚀 (5) C4Keycap 
+
+[09/08/2022 8:03 PM] itsmetechjay (pinned)
+ℹ️ @🐺wardens, please note that for this contest, **gas optimizations are out of scope.** The TRIBE team will not be awarding prize funds for gas-specific submissions.
+
+{Reactions}
+ohno (6) 👍 (6) ☕ (3) 4739_Skeletor (2) 
+
+[09/08/2022 8:07 PM] Ignacio#9604
+gas optimizations are out of scope is a new thing now?
+
+{Reactions}
+👍 (3) 
+
+[09/08/2022 8:07 PM] haruxe
+:TrollDespair: no i++
+
+{Reactions}
+😿 (4) 😂 
+
+[09/08/2022 8:08 PM] 0xa5df
+Is this related to the upcoming merge? 
+(expecting it to lower the fees, making gas optimization less significant)
+
+{Reactions}
+🤔 (2) 
+
+[09/08/2022 8:10 PM] devtooligan
+--coffeeMoneyForMiFamiglia
+
+{Reactions}
+chad_citadel (2) 
+
+[09/08/2022 8:12 PM] technicallyty
+merge will have little to no effect on fees.
+
+{Reactions}
+👀 👍 (8) 
+
+[09/08/2022 8:18 PM] itsmetechjay
+Some sponsors in the past have also opted to exclude gas optimizations from the scope.
+
+{Reactions}
+👍 
+
+[09/08/2022 9:34 PM] kartoonjoy
+Pinned a message.
+
+
+[09/08/2022 9:37 PM] kartoonjoy
+Pinned a message.
+
+
+[09/08/2022 10:36 PM] kryptoklob
+Oh hey there @++devtooligan 
+The contract I reference in this tweet is part of the contest, funnily enough: https://twitter.com/kryptoklob/status/1563353281111281664?t=dN7b4wTouUtsR3OEWuQlag&s=19
+
+{Embed}
+klob // segfault (@kryptoklob)
+https://twitter.com/kryptoklob/status/1563353281111281664?t=dN7b4wTouUtsR3OEWuQlag&s=19
+Natspec'ing up a smart contract when I type "@ author" and Copilot autocompletes to @ author @devtooligan for me
+
+lol
+lmao
+Twitter
+
+{Reactions}
+laugh (2) 
+
+[09/08/2022 10:43 PM] devtooligan
+lmeow i still can't believe of all people, copilot is recommending me as the author
+
+{Reactions}
+partyParrot (4) 
+
+[09/08/2022 10:52 PM] road220
+It's because so much spam is going through those gas optimization reports and no one cares about it. I mean, i said it earlier, that people are so lazy even to parse the output from some automated tools.
+
+
+[09/08/2022 10:56 PM] kryptoklob
+It's also because these contracts are related to the shutdown of Fei/Tribe protocol - it's okay if things aren't super optimized as these contracts will be used once per user in most cases
+
+{Reactions}
+👍 (3) 
+
+[09/08/2022 10:56 PM] kryptoklob
+(but do tell us if you find something horribly ineffecient!)
+
+
+[09/08/2022 11:04 PM] kryptoklob
+https://tribe.fei.money/t/tip-121b-fuse-hack-payment-process/4585
+
+Some context for those interested, we just posted this.
+
+{Embed}
+https://tribe.fei.money/t/tip-121b-fuse-hack-payment-process/4585
+TIP-121b: Fuse Hack Payment Process
+The Fuse Hack Payment snapshot has passed with “Full Hack Payment.”  The Code4rena security contest for the payment contract begins tomorrow and ends on Monday. Here is a link to their discord for more contest details: Code4rena.  Barring any substantial road blocks or issues that emerge from the security audit, we would propose a tentative DAO ...
+
+
+[09/09/2022 9:18 AM] Azephiar#2778
+I'm new here and was looking through old results and noticed the same. Do this low quality submissions receive payouts as well?
+
+
+[09/09/2022 9:52 AM] cloudellie
+The judge makes that assessment. C4 will be implementing this grading approach very soon: https://github.com/code-423n4/org/discussions/34
+
+
+[09/09/2022 1:45 PM] midnight.madman
+gm 👋🏼 new here as well. Where can is see old results to compare with my findings so I can learn what is expected?
+
+
+[09/09/2022 5:05 PM] kryptoklob (pinned)
+Past Tribe-Sponsored Contests:
+
+https://discord.com/channels/810916927919620096/943564108660359181
+
+
+[09/09/2022 5:09 PM] kartoonjoy
+Pinned a message.
+
+
+[09/09/2022 8:05 PM] ladboy233
+Is the reward 42000 worth of USD or 30000 worth of USD. haha.
+
+
+[09/09/2022 8:06 PM] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - fei-tribe-sept9 [1017461941377175623].txt_Files/unknown-C7041.png
+
+
+[09/09/2022 8:06 PM] ladboy233
+30000 USD + 12000 worth USD of tokens?
+
+
+[09/09/2022 8:08 PM] codingnamekiki
+It’s 42000 usdc, you can see it in github
+
+
+[09/09/2022 8:08 PM] kartoonjoy
+sorry, it was updated to 42K
+
+
+[09/09/2022 8:09 PM] ladboy233
+ok no worry.
+
+{Reactions}
+hi5 (4) 
+
+[09/09/2022 8:36 PM] haruxe
+oh its ok, feel free to up the prize pool whenever you guys feel necessary :GIGACHAD:
+
+{Reactions}
+😆 (8) 🙌 
+
+[09/10/2022 1:56 PM] scaraven
+@klob Could you accept the friend request so I can DM?
+
+
+[09/10/2022 4:10 PM] ladboy233
+@klob friend request sent. Want to clarify something. Thanks.
+
+
+[09/10/2022 4:24 PM] kartoonjoy
+@Joey S @tomwaite @klob hi! anyone available to answer warden questions this weekend?
+
+
+[09/10/2022 4:25 PM] joeysantoro
+I got a few dms, I will answer qs over weekend starting in an hour or so
+
+{Reactions}
+thankyou (2) 
+
+[09/10/2022 6:21 PM] tomwaite
+Also good to answer questions. Not received any yet, will be very available tomorrow
+
+{Reactions}
+thankyou 
+
+[09/10/2022 8:10 PM] ladboy233
+I saw i++. out of scope though.
+
+{Reactions}
+🤷‍♂️ 😂 (7) 🙇‍♂️ 4739_Skeletor 🥲 
+
+[09/11/2022 2:51 PM] cryptphi
+what does it mean for FEI to be backed by DAI?
+
+
+[09/11/2022 4:48 PM] rvierdiiev
+i guess that means that the amount of FEI that is in circulation is secured with the same amount of DAI that are controlled by protocol(it's backed as 1:1)
+
+
+[09/11/2022 5:52 PM] cryptphi
+thanks
+
+
+[09/11/2022 8:57 PM] anonnp
+How is `TribeRedeemer` going to be used exactly? I see `Intended to redeem TRIBE from the effective circulating supply in exchange for a pro rata portion of a list of ERC-20 tokens.` in the README, but I need more info, where do I find it
+
+
+[09/11/2022 11:09 PM] kryptoklob
+( @tomwaite @Eswak )
+
+
+[09/11/2022 11:11 PM] joeysantoro
+A number of ERC-20 tokens will be minted and transferred to the contract. Outstanding TRIBE would be able to transfer to the contract to claim the pro-rata portion of the basket of underlying. This would also effectively burn said TRIBE in a one-way redemption
+
+{Reactions}
+👍 
+
+[09/12/2022 5:30 AM] zhuxket
+@klob Can I ask a few questions?
+
+
+[09/12/2022 5:30 AM] zhuxket
+I sent a friend request for DM
+
+
+[09/12/2022 7:56 AM] eswak
+answered the dms
+
+{Reactions}
+thankyou 
+
+[09/12/2022 11:14 AM] tomwaite
+Also answered dms - feel free to send any more!
+
+
+[09/12/2022 11:16 AM] tomwaite
+Yep. The `SimeplFeiDAIPSM` will be loaded up with X DAI to match the X circulating FEI, which can be redeemed against the DAI
+
+
+[09/12/2022 12:07 PM] Franfran#5067
+So does `redeemBase` could be seen as a peg that decreases over redeem ?
+
+
+[09/12/2022 12:26 PM] tomwaite
+`redeemBase` will decrease over time with redeems yes. When a redeem happens and TRIBE is transferred into the contract, the `redeemBase` is decreased by the amount of TRIBE that was transferred in
+
+
+[09/12/2022 2:58 PM] slightscan
+If I make changes to 1 forge test only. For instance TribeRedeemer. Is it possible that forge doesn't compile the whole project? I'm only making changes to the test file.
+
+
+[09/12/2022 4:04 PM] tomwaite
+Forge should be smart enough to only recompile files that rely on the test afaik
+
+
+[09/12/2022 4:38 PM] izhuer
+a quick question about `RariMerkleRedeemer`. Just curious why the user needs to sign first? It seems that without signing, the rest functionalities can properly function. Or it is used for off-chain logic to collect some information like whether the user is willing to claim?
+
+
+[09/12/2022 4:40 PM] kryptoklob
+Signature acknowledges receipt of tokens etc
+
+
+[09/12/2022 4:43 PM] izhuer
+ic thx!
+
+
+[09/12/2022 5:10 PM] izhuer
+oh, wait. i am a bit confused further. since the code uses `msg.sender`, is the signature redundant since it serves the same functionality as EVM's native signature does? ...
+
+
+[09/12/2022 5:11 PM] kryptoklob
+Somewhat redundant. It's useful for offchain stuff.
+
+
+[09/12/2022 5:11 PM] izhuer
+that makes much sense! thx!
+
+
+[09/12/2022 5:11 PM] kryptoklob
+Np 🙂
+
+
+[09/12/2022 6:24 PM] anonnp
+sent request
+
+{Reactions}
+👀 
+
+[09/12/2022 8:02 PM] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **FEI and TRIBE Redemption** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: the **TRIBE** team will review the findings over the next couple of days, and then we'll pass them off to the judge. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+{Reactions}
+C4Keycap (14) 
+
+[10/03/2022 10:13 AM] R2#8087
+Hi guys! When results and awards will be announced?
+
+
+[10/21/2022 7:40 PM] rokinot
+https://github.com/code-423n4/code423n4.com/pull/4526/commits/0d8f90619e5a7b8dda065eb1668c448c01a3c8c3
+
+{Embed}
+https://github.com/code-423n4/code423n4.com/pull/4526/commits/0d8f90619e5a7b8dda065eb1668c448c01a3c8c3
+Add FEI TRIBE to Leaderboard by liveactionllama · Pull Request #452...
+Code4rena - ARCHIVE-Q3-2022 - fei-tribe-sept9 [1017461941377175623].txt_Files/98446738-1A1F9
+
+
+[10/21/2022 7:41 PM] rokinot
+sharp one
+
+
+[10/21/2022 8:09 PM] itsmetechjay
+🤑 🎉 Awards for **FEI and TRIBE Redemption**:
+
+$18,947.65 USDC » @rvierdiiev 
+$18,933.67 USDC » @cccz 
+$328.66 USDC » @Alex The Entreprenerd 
+$197.19 USDC » @Thunder 
+$134.09 USDC » CertoraInc (@egjlmn1, @Ori Dabush, @shakedwinder, @RoiEvenHaim, @ItayG)
+$81.81 USDC » @0x1f8b 
+$81.81 USDC » @hansfriese 
+$81.81 USDC » @R2
+$57.64 USDC » @rbserver 
+$47.65 USDC » KIntern_NA (@TrungOre, @duc)
+$47.65 USDC » @Roman 
+$38.41 USDC » @brgltd 
+$38.41 USDC » @horsefacts 
+$38.41 USDC » @Jeiwan 
+$38.41 USDC » @pashov 
+$38.41 USDC » @Rotcivegaf 
+$38.41 USDC » @unforgiven 
+$34.50 USDC » @c3phas 
+$34.50 USDC » @csanuragjain 
+$34.50 USDC » @hyh 
+$34.50 USDC » @izhuer 
+$34.50 USDC » @ladboy233小伙子 
+$34.50 USDC » @RaymondFam 
+$34.50 USDC » @sorryNotsorry 
+$34.50 USDC » @Tointer 
+$34.50 USDC » V_B (@Barichek, @Vlad B | zkSync)
+$33.81 USDC » @0xNazgul 
+$33.81 USDC » @yixxas 
+$33.67 USDC » @zhuXKET 
+$33.67 USDC » @datapunk 
+$33.67 USDC » @dipp 
+$33.67 USDC » @Junnon 
+$33.67 USDC » @Picodes | Angle 
+$33.67 USDC » @Randyyy 
+$33.60 USDC » @__141345__ 
+$33.60 USDC » @_Adam 
+$33.60 USDC » @code-cipher 
+$33.60 USDC » @cryptphi 
+$33.60 USDC » @d3e4 
+$33.60 USDC » @innertia 
+$33.60 USDC » @TomJ
+
+
+[10/21/2022 8:09 PM] itsmetechjay
+$33.58 USDC » @anon 
+$33.58 USDC » @0x52 
+$33.58 USDC » @Deivitto 
+$33.58 USDC » @smiling_heretic 
+$33.58 USDC » @wagmi 
+$33.58 USDC » @djxploit 
+$33.58 USDC » @fatherOfBlocks 
+$33.58 USDC » @leosathya 
+$33.58 USDC » @mohandes 
+$33.58 USDC » @simon135 
+$33.58 USDC » @Sm4rty 
+$33.58 USDC » @Tomo | NinjAudit 
+$33.58 USDC » @thinklab 
+$33.58 USDC » @rokinot 
+$33.58 USDC » @Samatak 
+$33.58 USDC » @0xSmartContract 
+$33.58 USDC » @Waze 
+$33.58 USDC » @ak1 
+$33.58 USDC » @Bnke 
+$33.58 USDC » @Chom 
+$33.58 USDC » @cryptonue 
+$33.58 USDC » @delfin454000 
+$33.58 USDC » @JC
+$33.58 USDC » @lucacez 
+$33.58 USDC » @Prasant Gupta 
+$33.58 USDC » @robee 
+$33.58 USDC » @Rohan 
+$33.58 USDC » @scaraven 
+$33.58 USDC » @ajtra 
+$33.58 USDC » @EricTee 
+$33.58 USDC » @lukris02 
+$33.58 USDC » @ReyAdmirado 
+$33.58 USDC » @sach1r0 
+$33.58 USDC » @a12jmx 
+$33.58 USDC » @cryptostellar5 
+$33.58 USDC » @Diana 
+$33.58 USDC » @Funen 
+$33.58 USDC » @Rolezn 
+$33.58 USDC » @0X040 
+$33.58 USDC » @Sloth 
+$33.58 USDC » @chandr 
+$33.58 USDC » @durianSausage 
+$33.58 USDC » @gogo 
+$33.58 USDC » mics
+$33.58 USDC » @ret2basic.eth 
+$33.58 USDC » @bharg4v 
+$33.58 USDC » @got_targ 
+$33.58 USDC » @Ignacio 
+$33.58 USDC » @karanctf 
+$33.58 USDC » @Noah3o6 
+$33.58 USDC » @Ocean_Sky 
+$33.58 USDC » @sikorico 
+$33.58 USDC » @Tagir2003 
+$33.58 USDC » @0x85102 
+$33.58 USDC » @bobirichman7542 
+$33.58 USDC » @CodingNameKiki 
+$33.58 USDC » @rfa 
+$33.58 USDC » @SnowMan 
+$33.58 USDC » @SooYa 
+$33.58 USDC » @StevenL 
+
+🏁 Findings summary
+---------------------------
+Med risk findings: 2 total, 2 unique
+QA reports: 101
+
+Awards will be distributed on Polygon within the next 1-2 weeks. Congratulations all! 💸 💸 💸
+
+*Note: If you participated in this contest and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions. *
+
+{Reactions}
+💀 (12) 
+
+[10/21/2022 8:25 PM] ladboy233
+https://github.com/code-423n4/code423n4.com/pull/4526/files
+
+{Embed}
+https://github.com/code-423n4/code423n4.com/pull/4526/files
+Add FEI TRIBE to Leaderboard by liveactionllama · Pull Request #452...
+Code4rena - ARCHIVE-Q3-2022 - fei-tribe-sept9 [1017461941377175623].txt_Files/98446738-1A1F9
+
+{Reactions}
+PepeHmmm (3) 
+
+[10/22/2022 2:02 AM] _oceansky
+thank you!
+
+
+[11/03/2022 2:33 PM] leosathya#5569
+is payout sent ??
+
+
+==============================================================
+Exported 66 message(s)
+==============================================================
